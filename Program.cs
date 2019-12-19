@@ -16,13 +16,11 @@ namespace SlickDeals_Scraping
         static void Main(string[] args)
         {
             fetchHTML();
-            
-            Console.ReadLine();  
         }
 
         private static async void fetchHTML()
         {
-            var url = "https://slickdeals.net/";
+            const string url = "https://slickdeals.net/";
 
             var httpClient = new HttpClient();
             var html = await httpClient.GetStringAsync(url);
@@ -40,6 +38,7 @@ namespace SlickDeals_Scraping
 
             
             Console.WriteLine(dealHtml);
+            
         }
     }
 }
