@@ -1,0 +1,14 @@
+C:\Users\Kevin\Desktop\SlickDeals Scraping\bin\Debug\netcoreapp3.0\SlickDeals Scraping.exe
+C:\Users\Kevin\Desktop\SlickDeals Scraping\bin\Debug\netcoreapp3.0\SlickDeals Scraping.deps.json
+C:\Users\Kevin\Desktop\SlickDeals Scraping\bin\Debug\netcoreapp3.0\SlickDeals Scraping.runtimeconfig.json
+C:\Users\Kevin\Desktop\SlickDeals Scraping\bin\Debug\netcoreapp3.0\SlickDeals Scraping.runtimeconfig.dev.json
+C:\Users\Kevin\Desktop\SlickDeals Scraping\bin\Debug\netcoreapp3.0\SlickDeals Scraping.dll
+C:\Users\Kevin\Desktop\SlickDeals Scraping\bin\Debug\netcoreapp3.0\SlickDeals Scraping.pdb
+C:\Users\Kevin\Desktop\SlickDeals Scraping\obj\Debug\netcoreapp3.0\SlickDeals Scraping.csprojAssemblyReference.cache
+C:\Users\Kevin\Desktop\SlickDeals Scraping\obj\Debug\netcoreapp3.0\SlickDeals Scraping.AssemblyInfoInputs.cache
+C:\Users\Kevin\Desktop\SlickDeals Scraping\obj\Debug\netcoreapp3.0\SlickDeals Scraping.AssemblyInfo.cs
+C:\Users\Kevin\Desktop\SlickDeals Scraping\obj\Debug\netcoreapp3.0\SlickDeals Scraping.dll
+C:\Users\Kevin\Desktop\SlickDeals Scraping\obj\Debug\netcoreapp3.0\SlickDeals Scraping.pdb
+C:\Users\Kevin\Desktop\SlickDeals Scraping\bin\Debug\netcoreapp3.0\HtmlAgilityPack.dll
+C:\Users\Kevin\Desktop\SlickDeals Scraping\bin\Debug\netcoreapp3.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\Kevin\Desktop\SlickDeals Scraping\obj\Debug\netcoreapp3.0\SlickDeals Scraping.csproj.CopyComplete
