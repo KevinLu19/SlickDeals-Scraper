@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kevin\\Desktop\\SlickDeals Scraping\\SlickDeals Scraping.csproj": {}
+    "c:\\Users\\Kevin\\Desktop\\SlickDeals Scraping\\SlickDeals Scraping.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kevin\\Desktop\\SlickDeals Scraping\\SlickDeals Scraping.csproj": {
+    "c:\\Users\\Kevin\\Desktop\\SlickDeals Scraping\\SlickDeals Scraping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kevin\\Desktop\\SlickDeals Scraping\\SlickDeals Scraping.csproj",
+        "projectUniqueName": "c:\\Users\\Kevin\\Desktop\\SlickDeals Scraping\\SlickDeals Scraping.csproj",
         "projectName": "SlickDeals Scraping",
-        "projectPath": "C:\\Users\\Kevin\\Desktop\\SlickDeals Scraping\\SlickDeals Scraping.csproj",
+        "projectPath": "c:\\Users\\Kevin\\Desktop\\SlickDeals Scraping\\SlickDeals Scraping.csproj",
         "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kevin\\Desktop\\SlickDeals Scraping\\obj\\",
+        "outputPath": "c:\\Users\\Kevin\\Desktop\\SlickDeals Scraping\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kevin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -36,6 +36,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Google.Apis.Gmail.v1": {
+              "target": "Package",
+              "version": "[1.42.0.1777, )"
+            },
             "HtmlAgilityPack": {
               "target": "Package",
               "version": "[1.11.17, )"
