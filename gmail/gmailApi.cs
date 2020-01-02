@@ -3,7 +3,6 @@ Author: Kevin Lu
 File: gmailApi.cs
 Purpose: connecting to gmail Api service.
     * Note: Code currently was taken from Google's get started. Currently testing if code even works.
-Modification: N/A
 */
 
 using Google.Apis.Auth.OAuth2;

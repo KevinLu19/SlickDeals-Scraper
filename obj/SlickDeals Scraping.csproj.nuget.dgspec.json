@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Kevin\\Desktop\\SlickDeals Scraping\\SlickDeals Scraping.csproj": {}
+    "C:\\Users\\Kevin\\Desktop\\SlickDeals Scraping\\SlickDeals Scraping.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Kevin\\Desktop\\SlickDeals Scraping\\SlickDeals Scraping.csproj": {
+    "C:\\Users\\Kevin\\Desktop\\SlickDeals Scraping\\SlickDeals Scraping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Kevin\\Desktop\\SlickDeals Scraping\\SlickDeals Scraping.csproj",
+        "projectUniqueName": "C:\\Users\\Kevin\\Desktop\\SlickDeals Scraping\\SlickDeals Scraping.csproj",
         "projectName": "SlickDeals Scraping",
-        "projectPath": "c:\\Users\\Kevin\\Desktop\\SlickDeals Scraping\\SlickDeals Scraping.csproj",
+        "projectPath": "C:\\Users\\Kevin\\Desktop\\SlickDeals Scraping\\SlickDeals Scraping.csproj",
         "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Kevin\\Desktop\\SlickDeals Scraping\\obj\\",
+        "outputPath": "C:\\Users\\Kevin\\Desktop\\SlickDeals Scraping\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kevin\\AppData\\Roaming\\NuGet\\NuGet.Config"
