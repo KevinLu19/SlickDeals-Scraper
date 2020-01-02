@@ -38,9 +38,3 @@ repository.
 * [HtmlAgilityPack] (https://html-agility-pack.net/) - Package used for web scraping.
 * [Gmail API] (https://developers.google.com/gmail/api/quickstart/dotnet) - Documentation for Gmail API.
 * [Slickdeals Website] (https://slickdeals.net/) - website used for this project to scrape.
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
