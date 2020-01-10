@@ -2,11 +2,10 @@
 Author: Kevin Lu
 File: Html.cs
 Purpose: Selecting the html code from url.
-Modification: N/A
+Modification: - Added a way to print out entire front page list from slickdeals.
 */
 
 using System;
-using System.Net.Http;    // Allows client();
 using HtmlAgilityPack;    // Html web scraping package/library.
 using System.Linq;
 using System.Web;
@@ -19,23 +18,23 @@ namespace SlickDeals_Scraping.html
     {
         public void websiteURL(string url)
         {
+            // web loads the url provided.
             var web = new HtmlWeb();
-            var doc = web.Load(url);
+            var htmlDoc = new HtmlDocument();
+            htmlDoc = web.Load(url);
+
+            // Selects desire HTML to parse.
+            var htmlUL = htmlDoc.DocumentNode.SelectSingleNode("//div[@class='gridCategory removeHidden']");
             
-            //int data_module_item = 1;
-
-            var nodes = doc.DocumentNode.SelectNodes("//div/div/div/div/ul/li");
-    
-            foreach (var item in nodes)
+            HtmlNodeCollection childNodes = htmlUL.ChildNodes;
+            
+            foreach (var node in childNodes)
             {
-                // while (item.Attributes[data_module_item].Value != null)
-                // {
-                //     // var newNode = doc.DocumentNode.SelectNodes("div/div/div/div/div/div");
-                //     Console.WriteLine(item.Attributes["class"].Value);
-                // }
-
-                Console.WriteLine(item.Attributes["class"].Value);
-            }
+                if (node.NodeType == HtmlNodeType.Element)
+                {
+                    Console.WriteLine(node.OuterHtml);
+                }
+            }		
         }
     }
 }
